@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="form.css" />
+    </head>
+    <body>
+        <form onsubmit="done()">
+            <div class="bg_color">
+                <div class="header">
+                    <h1>Appointment Form</h1>
+                </div>
+                <div class="data">
+                    <table>
+                        <tr>
+                            <td>
+                                <h4 class="mt">Name<span>*</span></h4>
+                                <input
+                                    type="text"
+                                    class="demo"
+                                    id="a"
+                                    placeholder="First Name / Middal Name / Last Name "
+                                />
+                                <p>&nbsp;</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Email<span>*</span></h4>
+                                <input
+                                    type="email"
+                                    class="demo"
+                                    id="b"
+                                    placeholder="missbuaty123@gmail.com"
+                                />
+                                <p>&nbsp;</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="data1">
+                    <table>
+                        <tr>
+                            <td>
+                                <h4>Phone number<span>*</span></h4>
+                                <input
+                                    type="tel"
+                                    placeholder="(_)_-_"
+                                    class="demo1 fs"
+                                    id="c"
+                                />
+                                <p>&nbsp;</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="data2">
+                    <table>
+                        <tr>
+                            <td>
+                                <h4>Choose date<span>*</span></h4>
+                                <input type="date" class="demo1" id="d" />
+                                <p>&nbsp;</p>
+                            </td>
+                            <td>
+                                <h4>Choose time<span>*</span></h4>
+                                <input type="time" class="demo1" id="e" />
+                                <p>&nbsp;</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="data2">
+                    <table>
+                        <tr>
+                            <td>
+                                <h4>Comments<span>*</span></h4>
+                                <textarea
+                                    rows="5"
+                                    cols="50"
+                                    class="demo1"
+                                    id="f"
+                                ></textarea>
+                                <p>&nbsp;</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="btn">
+                    <button type="submit" class="btn1">Submit</button>
+                </div>
+            </div>
+        </form>
+        <script src="form.js"></script>
+    </body>
+</html>

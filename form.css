@@ -1,0 +1,90 @@
+    body {
+        justify-content: center;
+        display: flex;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    h4 {
+        margin-bottom: 5px;
+        font-size: 20px;
+        margin-right: 20px;
+        margin-top: 0;
+    }
+
+    .mt {
+        margin-top: 35px;
+    }
+
+    .header {
+        text-align: center;
+        background-image: url('https://fs1.formsite.com/images/stock/2015/BusinessAndTechnology/Business01.jpg');
+        background-position: 50% 50%;
+        background-size: cover;
+        width: 700px;
+        height: 125px;
+        border-radius: 10px;
+    }
+
+    .header h1 {
+        color: white;
+        padding: 42px 0;
+    }
+
+    span {
+        color: red;
+    }
+
+    table {
+        margin-left: 15px;
+    }
+
+    .demo {
+        width: 378px;
+        height: 32px;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }
+
+    .demo1 {
+        width: auto;
+        height: 32px;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }
+
+    form {
+        padding-bottom: 50px;
+        background-color: rgb(244, 255, 255);
+        border-radius: 10px 10px 0 0;
+    }
+
+    .bg_color {
+        background-color: rgb(205, 221, 238);
+        padding: 10px 10px 0 10px;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .btn1 {
+        padding: 10px 30px;
+        border-radius: 10px;
+        font-size: 18px;
+        border: 1px solid #0866e0;
+        background-color: #0866e0;
+        color: white;
+    }
+
+    p {
+        font-size: 12px;
+        color: red;
+        margin: 0;
+        padding: 0;
+    }
+
+    .fs::placeholder {
+        font-size: 20px;
+    }
